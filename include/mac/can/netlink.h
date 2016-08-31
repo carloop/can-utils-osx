@@ -18,7 +18,7 @@
 #ifndef CAN_NETLINK_H
 #define CAN_NETLINK_H
 
-#include <linux/types.h>
+#include "mac_os_types.h"
 
 /*
  * CAN bit-timing parameters

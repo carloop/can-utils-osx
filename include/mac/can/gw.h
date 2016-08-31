@@ -44,8 +44,8 @@
 #ifndef CAN_GW_H
 #define CAN_GW_H
 
-#include <linux/types.h>
-#include <linux/can.h>
+#include "mac_os_types.h"
+#include <mac/can.h>
 
 struct rtcanmsg {
 	__u8  can_family;

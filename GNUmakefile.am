@@ -13,13 +13,13 @@ noinst_HEADERS = \
 	canframelen.h \
 	lib.h \
 	terminal.h \
-	include/linux/can/bcm.h \
-	include/linux/can/error.h \
-	include/linux/can/gw.h \
-	include/linux/can.h \
-	include/linux/can/isotp.h \
-	include/linux/can/netlink.h \
-	include/linux/can/raw.h
+	include/mac/can/bcm.h \
+	include/mac/can/error.h \
+	include/mac/can/gw.h \
+	include/mac/can.h \
+	include/mac/can/isotp.h \
+	include/mac/can/netlink.h \
+	include/mac/can/raw.h
 
 
 noinst_LTLIBRARIES = \

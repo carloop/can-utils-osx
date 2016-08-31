@@ -52,8 +52,8 @@
 #include <locale.h>
 
 #include <net/if.h>
-#include <linux/can.h>
-#include <linux/can/error.h>
+#include <mac/can.h>
+#include <mac/can/error.h>
 
 #include "lib.h"
 

@@ -46,7 +46,7 @@
 #ifndef CANFRAMELEN_H
 #define CANFRAMELEN_H
 
-#include <linux/can.h>
+#include <mac/can.h>
 
 /**
  * Frame length calculation modes.

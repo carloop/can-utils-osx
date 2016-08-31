@@ -122,8 +122,8 @@
 #include <net/if.h>
 #include <netinet/in.h>
 
-#include <linux/can.h>
-#include <linux/can/bcm.h>
+#include <mac/can.h>
+#include <mac/can/bcm.h>
 
 #define MAXLEN 100
 #define PORT 28600

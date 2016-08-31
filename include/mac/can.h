@@ -45,8 +45,8 @@
 #ifndef CAN_H
 #define CAN_H
 
-#include <linux/types.h>
-#include <linux/socket.h>
+#include "mac_os_types.h"
+#include <sys/socket.h>
 
 /* controller area network (CAN) kernel definitions */
 
