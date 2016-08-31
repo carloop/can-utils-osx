@@ -17,7 +17,6 @@ banner() {
 
 banner "autoreconf"
 glibtoolize
-autoheader
 aclocal
 autoreconf --force --install -Wall || exit $?
 automake --add-missing
