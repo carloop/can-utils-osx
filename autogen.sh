@@ -16,7 +16,9 @@ banner() {
 }
 
 banner "autoreconf"
-
+glibtoolize
+aclocal
 autoreconf --force --install -Wall || exit $?
+automake --add-missing
 
 banner "Finished"
