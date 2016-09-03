@@ -114,13 +114,13 @@
 #include <signal.h>
 #include <errno.h>
 
-#include <mac/if.h>
-#include <mac/mac_os_types.h>
+#include </usr/include/sys/types.h>
 #include <sys/wait.h>
 #include <sys/socket.h>
 #include <sys/ioctl.h>
 #include <sys/uio.h>
-#include <netinet/in.h>
+#include <mac/if.h>
+#include </usr/include/netinet/in.h>
 
 #include <mac/can.h>
 #include <mac/can/bcm.h>
